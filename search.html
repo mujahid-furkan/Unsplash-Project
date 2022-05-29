@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsplash Clone</title>
+    <script src="https://kit.fontawesome.com/ee20a6423b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left">
+               <div class="logo">
+                   <h1>Unsplash</h1>
+               </div>
+                <form class="search-photo search">
+                    <input type="text" name="search" placeholder="Search free heigh-resulation photo" >
+                    <i class="fas fa-search"></i>
+                </form>
+            </div>
+
+            <div class="side-menu">
+                <ul>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Log In</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Submit Photo</a></li>
+                    <li><a href="#"><i class="fas fa-bars"></i></a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+        
+    </header>
+
+<!-- Popup Window Section start -->
+    <div class="image-popup hide">
+        <button class="close-btn"> <i class="fa fa-close"></i></button>
+
+        <div class="userDetails">
+            <img src="" class="userImg">
+         <div class="userinfo">
+                <p class="userName"></p>
+                <span class="userId"></span>           
+         </div>
+        </div>
+        <p class="userName"></p>
+        <span class="userId"></span>
+
+        <div class="popup-topbar">
+            <button> <i class="far fa-heart"></i></button>
+            <button> <i class="fa fa-plus"></i></button>
+            <a href="" class="download-btn"> Download Image</a>
+        </div>
+
+        <img src="" class="large-image" alt="">
+        <button class="controls prev-btn"> <img src="images/pre.png" ></button>
+        <button class="controls nxt-btn"><img src="images/nxt.png" > </button>
+       
+        
+        <div class="popup-footer">
+            <div class="left">
+               <div class="single-option">
+                <h4>Likes</h4>
+                <p class="imageLike"></p>
+               </div>
+               <div class="single-option">
+                <h4>Collection</h4>
+                <p class="imageDownload"></p>
+               </div>
+               <div class="single-option">
+                <h4>Photo</h4>
+                <p class="stockImg"></p>
+               </div>
+            </div>
+        
+            <div class="right">
+                    <button class="share"><i class="fa fa-share"></i> Share</button>
+                    <button class="info"><i class="fa fa-info"></i> Info</button>
+                    <button class="more"><i class="fa fa-ellipsis-h"></i> More</button>
+            </div>
+        </div>
+
+    </div>
+<!-- Popup Window Section end -->
+
+
+<!-- gallery Section start -->
+<section class="gallery">
+  
+</section>
+<!-- gallery Section start -->
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
